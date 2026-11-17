@@ -1,0 +1,33 @@
+ASO - UT2 Scripting en sistemas operativos (RA7)
+Scripts de los ejercicios de clase «Introducción a Bash» (Actividad 1)
+
+alumnado/      Ficheros que se dan al alumnado para los bloques 7 y 8
+               (contar.sh, media.sh y disco.sh, con errores a propósito).
+
+solucionario/  Soluciones de todos los ejercicios, por bloques:
+  bloque1  1.6 hola.sh
+  bloque2  2.1 variables.sh (incluye los dos errores provocados)
+           2.4 resumen.sh · 2.5 saluda.sh
+  bloque3  3.1 tabla_usuarios.sh · 3.2 alta_simulada.sh · 3.4 registra.sh
+  bloque4  4.1 calcula_4.1.sh (versión que aún falla con 0) · 4.4 salida.sh
+  bloque5  5.1 tipo_ruta.sh · 5.2 comprueba_usuario.sh · 5.3 menu_red.sh
+           5.4 calcula_5.4.sh (versión final de calcula.sh)
+  bloque6  6.1 servicios_6.1.sh · 6.2 crea_carpetas.sh · 6.3 logs.sh
+           6.4 shells.sh (incluye la versión con tubería, comentada)
+           6.5 espera_red.sh
+  bloque7  7.1 contar.sh y 7.2 media.sh corregidos (con la lista de errores)
+  bloque8  8.1 disco.sh · 8.2 servicios_8.2.sh (versión final de servicios.sh)
+
+Los ficheros con _4.1, _5.4, _6.1 y _8.2 son versiones del mismo script
+(calcula.sh y servicios.sh) en distintos momentos de la actividad.
+
+Comentarios de los scripts:
+  # texto          comentario normal (qué parte del script es o por qué)
+  # NOTA:          explicación para estudiar una instrucción
+  # RESULTADO:     lo que mostrará o guardará esa instrucción
+  EJEMPLO(S) DE EJECUCIÓN, al final: la salida esperada
+
+Las NOTAS y RESULTADOS son material de estudio: en un script real no se
+pondrían (ver el ejercicio 8.1, «comentarios que expliquen el porqué»).
+
+Todos los scripts pasan bash -n y ShellCheck sin avisos.
