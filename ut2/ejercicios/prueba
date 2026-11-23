@@ -1,0 +1,20 @@
+#!/bin/bash
+
+existen=0
+total=0 
+
+if [ "$1" = "-f" ]; then
+fichero=$2
+if [ $# -ne 2 ] || [ ! -r "$fichero" ]; then
+echo "Uso: $0 -f FICHERO (el fichero debe existir y poder leerse) "
+exit 2
+fi
+fi
+
+while read -r usuario || [ -n "$usuario" ]; do
+    if [ -z "$usuario" ]; then
+        continue
+    fi
+    total=$((total + 1))
+    if id "$usuario" $> /dev/null; then
+    
